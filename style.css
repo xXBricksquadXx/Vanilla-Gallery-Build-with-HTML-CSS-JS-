@@ -34,3 +34,19 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+main,
+#film-strip figure {
+  align-items: center;
+}
+
+#display img {
+  border: 1px solid #ffc922;
+  border-radius: 4px;
+  max-height: 40vh;
+}
+
+#film-strip img:focus,
+#film-strip img:hover {
+  cursor: pointer;
+}
