@@ -5,3 +5,32 @@ body {
   padding: 0.5rem;
   text-align: center;
 }
+
+main,
+#film-strip {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+#film-strip {
+  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+  max-width: 1200px;
+  padding: 1rem 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
